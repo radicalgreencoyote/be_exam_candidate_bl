@@ -1,0 +1,8 @@
+LINE_NUM,ERROR_MSG
+1,FIRST_NAME is required
+1,INTERNAL_ID is invalid. Expected format: #########
+1,PHONE_NUM is invalid. Expected format: ###-###-####
+2,INTERNAL_ID is required
+2,MIDDLE_NAME is invalid. Expected format: 15 characters max
+3,LAST_NAME is required
+3,FIRST_NAME is invalid. Expected format: 15 characters max

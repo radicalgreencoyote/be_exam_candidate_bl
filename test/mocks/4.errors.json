@@ -1,0 +1,56 @@
+[
+	{
+		"error": true,
+		"errors": [
+			{
+				"type": "REQUIRED",
+				"key": "FIRST_NAME"
+			},
+			{
+				"type": "INVALID",
+				"format": "#########",
+				"key": "INTERNAL_ID",
+				"value": "000000022"
+			},
+			{
+				"type": "INVALID",
+				"format": "###-###-####",
+				"key": "PHONE_NUM",
+				"value": "(123)456-7890"
+			}
+		],
+		"index": 1
+	},
+	{
+		"error": true,
+		"errors": [
+			{
+				"type": "REQUIRED",
+				"key": "INTERNAL_ID"
+			},
+			{
+				"type": "INVALID",
+				"format": "15 characters max",
+				"key": "MIDDLE_NAME",
+				"value": "Stormborn of the House Targaryen; First of Her Name; the Unburnt; Queen of the Andals and the First Men; Khaleesi of the Great Grass Sea; Breaker of Chains; and Mother of Dragons"
+			}
+		],
+		"index": 2
+	},
+	{
+		"error": true,
+		"errors": [
+			{
+				"type": "REQUIRED",
+				"key": "LAST_NAME"
+			},
+			{
+				"type": "INVALID",
+				"format": "15 characters max",
+				"key": "FIRST_NAME",
+				"value": "Jaaaaaaimeeeeeee"
+			}
+		],
+		"index": 3
+	}
+]

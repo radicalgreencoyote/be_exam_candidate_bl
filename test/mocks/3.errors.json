@@ -1,0 +1,102 @@
+[
+    {
+        "error": true,
+        "errors": [
+            {
+                "type": "REQUIRED",
+                "key": "INTERNAL_ID"
+            }
+        ],
+        "index": 1
+    },
+    {
+        "error": true,
+        "errors": [
+            {
+                "type": "INVALID",
+                "format": "#########",
+                "key": "INTERNAL_ID",
+                "value": "1"
+            }
+        ],
+        "index": 2
+    },
+    {
+        "error": true,
+        "errors": [
+            {
+                "type": "REQUIRED",
+                "key": "FIRST_NAME"
+            }
+        ],
+        "index": 3
+    },
+    {
+        "error": true,
+        "errors": [
+            {
+                "type": "REQUIRED",
+                "key": "LAST_NAME"
+            }
+        ],
+        "index": 5
+    },
+    {
+        "error": true,
+        "errors": [
+            {
+                "type": "REQUIRED",
+                "key": "PHONE_NUM"
+            }
+        ],
+        "index": 6
+    },
+    {
+        "error": true,
+        "errors": [
+            {
+                "type": "INVALID",
+                "format": "15 characters max",
+                "key": "FIRST_NAME",
+                "value": "Jaaaaaaimeeeeeee"
+            }
+        ],
+        "index": 7
+    },
+    {
+        "error": true,
+        "errors": [
+            {
+                "type": "INVALID",
+                "format": "15 characters max",
+                "key": "MIDDLE_NAME",
+                "value": "'Gregor The Mountain'"
+            }
+        ],
+        "index": 8
+    },
+    {
+        "error": true,
+        "errors": [
+            {
+                "type": "INVALID",
+                "format": "15 characters max",
+                "key": "LAST_NAME",
+                "value": "Clegane the Hound"
+            }
+        ],
+        "index": 9
+    },
+    {
+        "error": true,
+        "errors": [
+            {
+                "type": "INVALID",
+                "format": "###-###-####",
+                "key": "PHONE_NUM",
+                "value": "1231231233"
+            }
+        ],
+        "index": 10
+    }
+]

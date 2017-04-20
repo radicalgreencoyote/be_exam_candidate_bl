@@ -1,0 +1,33 @@
+{
+  "name": "phone-book-converter",
+  "version": "1.0.0",
+  "description": "CSV to JSON phone book converter",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "NODE_ENV=test mocha test/**/*.js",
+    "test-unit": "NODE_ENV=test mocha test/unit/**/*.js",
+    "test-e2e": "NODE_ENV=test mocha test/e2e/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stvpalumbo/be_exam_candidate_bl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stvpalumbo/be_exam_candidate_bl/issues"
+  },
+  "homepage": "https://github.com/stvpalumbo/be_exam_candidate_bl#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "bunyan": "^1.8.10",
+    "config": "^1.25.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "fs-extra": "^2.1.2",
+    "mocha": "^3.2.0",
+    "mock-fs": "^4.2.0",
+    "sinon": "^2.1.0",
+    "sinon-chai": "^2.9.0"
+  }
+}
